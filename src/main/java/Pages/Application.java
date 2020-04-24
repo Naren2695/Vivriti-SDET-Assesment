@@ -24,7 +24,7 @@ public class Application {
         this.logger = logger;
 
         logger.log(Status.PASS,
-                "<b style=\"color:FUCHSIA\">PBMiniApp Page URL Has Updated Correctly </b>"
+                "<b style=\"color:FUCHSIA\">URL Has Updated Correctly </b>"
                         + driver.getCurrentUrl());
 //        logger.addScreenCaptureFromPath(DriverUtils.takeScreenShot("Landing Page...."));
         PageFactory.initElements(driver, this);
